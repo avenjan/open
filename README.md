@@ -8,9 +8,8 @@
 
 **I'am Aven Jan**
 
-+E-mail: avenjan@gmail.com
-
-+QQ 599238526
++ E-mail: avenjan@gmail.com
++ QQ 599238526
 + 作者主页：<http://avenjan.huamengnet.com>
 + 网络技术团队： <http://www.huamengnet.com>
 
