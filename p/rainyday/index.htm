@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>rainyday.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="rendering raindrops with javascript">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/logo.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>rainyday.js</h1>
+              <p>rendering raindrops with javascript</p>
+              <!--p><a class="btn btn-large btn-primary" href="https://github.com/maroslaw/rainyday.js">Get rainyday.js v0.1.2</a></p-->
+              <p><a class="btn btn-large btn-primary" href="https://github.com/maroslaw/rainyday.js">View on github</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container marketing">
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">About</h2>
+          <p class="lead">The idea behind rainyday.js is to create a JavaScript library that makes use of the HTML5 canvas to render an animation of raindrops falling on a glass surface. Simple enough, right?</p>
+          <p class="lead">Have a look at the demos to see it in action.</p>
+        </div>
+        <div class="col-md-5">
+          <a href="demo012_1.html" target="_blank"><img class="featurette-image img-responsive" src="img/dm1.jpg" alt="Demo #1"></a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5">
+          <a href="demo012_2.html" target="_blank"><img class="featurette-image img-responsive" src="img/dm2.jpg" alt="Demo #2"></a>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Features</h2>
+          <p class="lead">rainyday.js features extendable API, collision detection and is easy to extend with your own implementations of different animation components.</p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 collapse-group">
+          <h2 class="featurette-heading">Cross-browser</h2>
+          <p class="lead">Rainyday.js is a pure JavaScript library which uses HTML5 features so it's supported by most of the modern browsers.</p>
+          <div class="collapse" id="viewdetails">
+            <p>
+              <span class="label label-danger">Internet Explorer 8 and below</span>
+              <span class="label label-success">Internet Explorer 9</span>
+              <span class="label label-success">Internet Explorer 10</span>
+              <span class="label label-success">Firefox 23 and below</span>
+              <span class="label label-success">Firefox 24</span>
+              <span class="label label-success">Safari 5.1</span>
+              <span class="label label-success">Google Chrome 27 and below</span>
+              <span class="label label-success">Google Chrome 28</span>
+              <span class="label label-success">Google Chrome 29</span>
+              <span class="label label-success">Google Chrome 30</span>
+              <span class="label label-default">Opera 11.60</span>
+              <span class="label label-default">Opera 12.00</span>
+              <span class="label label-success">Opera 12.16</span>
+              <span class="label label-default">Opera mobile</span>
+              <span class="label label-danger">Konqueror 4.10.5</span>
+              <span class="label label-default">Android 4</span>
+              <span class="label label-success">Chrome mobile</span>
+              <span class="label label-default">Safari mobile</span>
+            </p>
+          </div>
+          <p><a class="btn" data-toggle="collapse" data-target="#viewdetails">Details &raquo;</a></p>
+        </div>
+        <div class="col-md-5">
+          <a href="demo012_3.html" target="_blank"><img class="featurette-image img-responsive" src="img/dm3.jpg" alt="Demo #3"></a>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-5">
+          <a href="demo012_4.html" target="_blank"><img class="featurette-image img-responsive" src="img/dm4.jpg" alt="Demo #4"></a>
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Wanna help? <span class="text-muted">Yay!</span></h2>
+          <p class="lead">We're looking for fresh ideas, patches than might improve code quality and performance. Found an issue with the script or have a feature request? Submit a ticket!</p>
+          <p><a class="btn btn-large btn-primary" href="https://github.com/maroslaw/rainyday.js" target="_blank">Visit us on github</a></p>
+          <br/>
+          <p>You can also donate via paypal</p>
+          <p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="XWP2SR3FLGE6C">
+              <input type="image" src="https://www.paypalobjects.com/en_US/PL/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+      </footer>
+    </div>
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="js/site.js"></script>
+  </body>
+</html>
