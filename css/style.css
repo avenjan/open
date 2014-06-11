@@ -1560,7 +1560,7 @@ h6.years {
 	background: #333333;
 	width: 100%;
 	padding-top: 40px;
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 }
 
 .quote p.quote-symbol {
@@ -1689,7 +1689,7 @@ a.contactLink {
 /* Credits and back to top button */
 .contact-bottom {
 	position: relative;
-	margin-top: 15px;
+	
 }
 
 .credit {
