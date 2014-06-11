@@ -1681,7 +1681,7 @@ a.contactLink {
 	width: 300px;
 	float: left;
 }
-
+.contact-form .form-column p{ text-align:left}
 .contact-form .form-column:first-child {
 	margin-right: 20px;
 }
