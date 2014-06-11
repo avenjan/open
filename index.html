@@ -1,79 +1,356 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
+<!--[if IE 7]><html lang="zh" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="zh" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="zh" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="zh"><![endif]-->
+<!--[if !IE]><html lang="zh"><![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<script src="js/lib/modernizr.js"></script>
+	<script src="js/lib/pace.js"></script>
+	<script>(function(w){var dpr=((w.devicePixelRatio===undefined)?1:w.devicePixelRatio);if(!!w.navigator.standalone){var r=new XMLHttpRequest();r.open('GET','/retinaimages.php?devicePixelRatio='+dpr,false);r.send()}else{document.cookie='devicePixelRatio='+dpr+'; path=/'}})(window)</script>
+	<noscript><style id="devicePixelRatio" media="only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)">html{background-image:url("/retinaimages.php?devicePixelRatio=2")}</style></noscript>
+	
+	<title>桦盟网络开源项目库</title>
+	
+	<meta name="robots" content="all">
+	<meta name="description" content="桦盟网络开源项目库，致力于优质开源网络技术资源分享和推广">
+	<meta name="keywords" content="桦盟网络，开源项目">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<link rel="stylesheet" href="css/lib/font-awesome.min.css">
+	<link rel="stylesheet" href="css/lib/magnific-popup.css">
+	<link rel="stylesheet" href="css/lib/lite.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<link rel="shortcut icon" href="images/favicon/favicon.ico">
+</head>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Open : Aven工作室" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<body class="body-push business auto-close-menu">
 
-    <title>Open</title>
-  </head>
 
-  <body>
+	<!-- Menu ->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="#home">Focus</a></h1>
+			<i class="icon-remove menu-close"></i>
+			<a href="#home">Home</a>
+			<a href="#services">Services</a>
+			<a href="#process">Process</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#about-us">About</a>
+			<a href="#contact">Contact</a>
+			<a href="#"><i class="icon-facebook"></i></a>
+			<a href="#"><i class="icon-twitter"></i></a>
+			<a href="#"><i class="icon-dribbble"></i></a>
+			<a href="#"><i class="icon-envelope"></i></a>
+		</div>
+		
+		
+		<div id="menuToggle"><i class="icon-reorder"></i></div>
+	</nav>
+<!-- Menu button -->
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/avenjan/open">View on GitHub</a>
+	<!-- Fullscreen slider -->
+	<div id="home"></div>
+	<div id="slides">
+		<ul class="slides-container">
+			<li>
+				<!-- Slide -->
+				<div style="background-image: url('images/slide2.jpg');" class="fullscreen-image"></div>
+				<div class="header-center fade-in">
+					<h1 class="fittext white">桦盟网络</h1>
+					<p class="uppercase white">保持冷静，发现真棒的东西＆将它展现给世界</p>
+					
+				</div>
+			</li>
+			<li>
+				<!-- Slide -->
+				<div style="background-image: url('images/slide1.jpg');" class="fullscreen-image"></div>
+				<div class="header-center fade-in">
+					<h1 class="fittext white">I'am a worker</h1>
+					<p class="uppercase white">努力工作，尽情玩乐及获得的回报</p>
+					
+				</div>
+			</li>
+			<li>
+				<!-- Slide -->
+				<div style="background-image: url('http://cashemir.kwst.net/team/images/bg/3.jpg');" class="fullscreen-image"></div>
+				<div class="header-center fade-in">
+					<h1 class="fittext white">Share the love</h1>
+					<p class="uppercase white">把恐惧留给自己，但共享你的创造力与他人</p>
+				</div>
+			</li>
+		</ul>
+		<nav class="slides-navigation">
+			<a href="#" class="prev"><i class="icon-long-arrow-left"></i></a>
+			<a href="#" class="next"><i class="icon-long-arrow-right"></i></a>		</nav>
+	</div>
 
-          <h1 id="project_title">Open</h1>
-          <h2 id="project_tagline">Aven工作室</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/avenjan/open/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/avenjan/open/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<!-- Process -->
+	<section id="process" class="process">
+		
+		<!-- Title -->
+		<div class="row">
+			<div class="ten columns offset-by-one title">
+				<h1>在这里</h1>
+				<h2>你可以获得什么</h2>
+				<hr>
+			</div>
+		</div>
+		
+		<!-- Process steps -->
+		<div class="row">
+		
+			<!-- Process step -->
+			<div class="desktop-three columns tablet-six columns mobile-six columns">
+				<i class="icon-lightbulb process-icon"></i>
+				<h3>Ideas</h3>
+				<p>或许你胸中正酝酿着一个不错的想法，那么我们来共同发掘一些元素让它更加丰腴。</p>
+			</div>
+			
+			<!-- Process step -->
+			<div class="desktop-three columns tablet-six columns mobile-six columns">
+				<i class="icon-cogs process-icon"></i>
+				<h3>Build</h3>
+				<p>进行创造是一个漫长而有意思的过程，当然我们都希望将其更加快速的展现给世人。</p>
+			</div>
+			
+			<!-- Process step -->
+			<div class="desktop-three columns tablet-six columns mobile-six columns">
+				<i class="icon-check process-icon"></i>
+				<h3>Perfect</h3>
+				<p>汇集更多开发者的项目作品，这一定能够便于你的设计被更多数人所认可。</p>
+			</div>
+			
+			<!-- Process step -->
+			<div class="desktop-three columns tablet-six columns mobile-six columns">
+				<i class="icon-rocket process-icon"></i>
+				<h3>Launch</h3>
+				<p>A business process is a collection of structured activities or tasks that produce a service or product for a particular customer or customers.</p>
+			</div>
+			
+		</div>
+	</section>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	<!-- Portfolio -->
+	<section id="portfolio" class="portfolio">
+		
+		<!-- Title and navigation -->
+		<div class="row">
+			<div class="ten columns offset-by-one title">
+				<h1>都在这里</h1>
+				<h2 id="filter-container">找找看!<br/>
+					<!--a class="filter button dark-bg" data-order="desc" data-filter="website">websites</a>
+					<a class="filter button  dark-bg" data-order="desc" data-filter="illustration">illustrations</a>
+					<a class="filter button dark-bg" data-order="desc" data-filter="photo">photographs</a>
+					<a class="filter button dark-bg" data-order="desc" data-filter="movie">movies</a>
+					<a class="filter light button dark-bg" data-order="desc" data-filter="all">全部</a-->
+				</h2>
+				<hr>
+			</div>
+		</div>
+		
+		<!-- Portfolio grid with projects -->
+		<div id="portfolio-grid" class="row">
+		
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix illustration project-item">
+				<a class="popup" href="http://open.huamengnet.com/p/rainyday/">
+					<span class="project-hover">
+						<span>Project Title<br>
+						<b>Illustration</b></span>
+					</span>
+					<img src="http://open.huamengnet.com/p/rainyday/img/dm1.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix website project-item">
+				<a class="popup" href="images/placeholder-thumbnail.jpg">
+					<span class="project-hover">
+						<span>Company INC<br>
+						<b>Webdesign</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
+				<a class="popup" href="images/placeholder-thumbnail.jpg">
+					<span class="project-hover">
+						<span>Autumn<br>
+						<b>Photography</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
+				<a class="popup" href="images/placeholder-thumbnail.jpg">
+					<span class="project-hover">
+						<span>Traveling<br>
+						<b>Photography</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix website project-item">
+				<a href="portfolio-business.html">
+					<span class="project-hover">
+						<span>Details Page<br>
+						<b>Webdesign &amp; Branding</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix photo project-item">
+				<a class="popup" href="images/placeholder-thumbnail.jpg">
+					<span class="project-hover">
+						<span>Portraits<br>
+						<b>Photography</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix movie project-item">
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=Ycv5fNd4AeM">
+					<span class="project-hover">
+						<span>Project Title<br>
+						<b>YouTube Video</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix website project-item">
+				<a class="popup" href="images/placeholder-thumbnail.jpg">
+					<span class="project-hover">
+						<span>Focus<br>
+						<b>Webdesign &amp; Branding</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+			<!-- Project item -->
+			<div class="desktop-four columns tablet-six columns mobile-six columns mix movie project-item">
+				<a class="popup-vimeo" href="http://vimeo.com/50522981">
+					<span class="project-hover">
+						<span>Project Title<br>
+						<b>Vimeo Video</b></span>
+					</span>
+					<img src="images/placeholder-thumbnail.jpg" alt="placeholder-thumbnail">
+				</a>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+	</section>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	<!-- Call to Action -->
+	<section class="call-to-action">
+		<div class="row">
+			<div class="twelve columns">
+				<h3>A fast, effective &amp; responsive template for you and your portfolio</h3>
+				<p>
+					<a href="personal.html" class="button white-border">View personal version</a>
+					<a href="#" class="button dark-bg">Buy this template</a>
+				</p>
+			</div>
+		</div>
+	</section>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+	<!-- Contact -->
+	<section id="contact" class="contact quote">
+			<div class="row">
+				<div class="eight columns offset-by-two">
+					<div id="contact-slider">
+						<ul>
+							<li>
+								<!-- Contact details -->
+								<h2><a data-rel="2" href="#" class="contactLink">和我联系<i class="icon-long-arrow-right"></i></a></h2>
+								
+								<p class="script margin-top">关注</p>
+								
+								<a href="#"><i class="icon-facebook medium-icon white-border"></i></a>
+								<a href="#"><i class="icon-google-plus medium-icon white-border"></i></a>
+								<a href="#"><i class="icon-dribbble medium-icon white-border"></i></a>
+							</li>
+							<li>
+								<!-- Contact form -->
+								<form class="contact-form" novalidate="" id="contactForm">
+									<div class="form-column">
+										<input type="text" id="contactName" name="name" placeholder="Name" class="text">
+										<input type="email" id="contactEmail" name="email" placeholder="E-Mail" class="email">
+										<input type="text" id="contactPhone" name="phonenumber" placeholder="Phone" class="text">
+									</div>
+									<div class="form-column">
+										<textarea id="contactMessage" placeholder="Message" name="message" class="textarea"></textarea>
+									</div>
+									<p class="script no-margin-top"><a data-rel="1" href="#" class="contactLink"><i class="icon-long-arrow-left"></i> <button class="button white-border">Return to contact details</button></a></p>
+								</form>
+								<br class="clear">
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+	<div id="modalOverlay" class="modal-overlay hide"></div>
+	<div id="modal" class="modal hide">
+		<h1 id="modalTitle">Thanks!</h1>
+		<p id="modalContent">We'll be in touch real soon!</p>
+		<p id="modalClose" class="modal-close">(Close this thing)</p>
+	</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+	<div id="loader">
+		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABNVJREFUeNrcWt1x4jAQVjx5j1PBkQrCVRCnAqACoAJgknfgnRmgAisVYCrAqSBOBfgqOKeCOznz7bFZZGN+7dzO7CRYtrzf/mm18tXT05M6EbmGPcN1w/fst6TIcGL4Ff+H+H0QTSaTz7/OCQB0DC8M/zY8NHxjeGl4bPjW8JXggeE5nu3huQXmOZiuj9B+H4LEECwVsAaL1MDcIiHuDfE7YHM1MdcUc832tdIhFkkBrA0/GNZwjyGuDeFWkm4w9gYL+MwCCeb5abiFedf7Wmgfi9QhgAvhSesBBIiExers7wdiYonxHxkWCMEe3tXG3MmpLJJqZ8WES6lr+A4uFWFsyrQ+hbCcUms1MF8NrtaDBUbCDX9ifI25j7bICG5BGWfA/JxA9iCYtoznWdiD1ut4RwMKoszWhSVXmFcfCoT78lhojcxPY3rPWIvAM8w1xF8ptGayqKz3XO+wRAeaaQktTzE2hiDHkowNKbRm741EPOYC6UBDKYhH9qALjSnmw6ckio08MCvEZrIr2Clos0BEZwKhWDpuQXAfa4xiYAIsoDuzFmkiC0RXXYa6YB+JhIgW3k4ekD4sMhB+uLgwCG4BzZSrWDabsqXgCxAXcRGIzDDC2ECVQ2NYoCliKYLit4D0mUl5vAxxLSkJSAIwUwvAng1ID+VCItLs2JbuSnAxJeLiswh9fn7ucCB0w0wsePUTrROncrG2uDZHNaCusLFasCDiAf4uVvMyyUXdxVO/i7ru1mH7gbl4qHlA2XHuWAlF0NM1z4ELxSIOmshesaoWLbFf4ZQWlXUHcSCr1QfcUDWKLCV9eu3BgdDvYtCrQKbKAlKzuJzrsBs41QruKcqgmFtlMpmE5FqeiIV6iYtfUSBuVtEYi4wVqW9GjvpP6DsCqXHXNyWKmwUksWSGqgGJREyHDi56O1JcVcizLNKfycmhPJyX4ipEtsU77ZW9O7TEF1hBq0C2iuNz8SbXstUvjQrGBtWA3EI1ihHqJ3H3CizXyqYO5ErEZjAwq/u/GAlEeUzVcLNCe5FexlZjydPvUm03nF/UpudbNvXV5nTrS4/BWENzIFptH8zY9sllZaqh6OJsWcgR+19pgQGuuSW6lG9pgPiyx8CBzNSm1c+DPi7Rxah1OxJB3wS4xAYkgQV8YYEuHr60i/lQbEu4GXXkZ3lFo4YFpiKDUQ/WvzCIR6b19PeKKXdn9duC6TrCxcgyizPGTJpw3nJAUOs2KgKEjhOmAowGmCZe5p0hxb6pzRlJwkoQApF5MubkbPIpXmxg6JhhdQJA6fxrpNOWSLMjBkKrnGZh3tGbZpmD/9YA6gMEdVxe1KZLXqQcp9Pd2KJpD++lwnWsdnQ8dx2GktArFJYDmJxOrUZqc6LbVl9Pf1MBf4nKlc7daZV+FMA9zEHH4JRJ9S7NFDmeTl90hyB/g2uFzPQz9fVzjhB9MlckhTlTQiJSapvVdTHGKVsWaoQU3bNTAhgDEI8NWrBuIawLtxjCCjdMYA+gfczxh2XBgG3o5rB44W7Ovs0HDeu8Mgt1mOYpGdxCkBT4h2Wed4zRPXXM84r59z7KOOTrILLACC9vQMOh2nyDRV3ymLmhyzZC92rzxUMAC+hjUt/1kalTg/lHZz0mtKSQ7UDH6siPzjj9FWAA4gh/kLD8SJ0AAAAASUVORK5CYII=" alt="loader">
+	</div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Open maintained by <a href="https://github.com/avenjan">avenjan</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+	<!-- Credits and back to top button -->
+	<div class="contact-bottom">
+		<p class="credit">Focus&trade; - Design &amp; Development by <a href="#">EffekThemes</a></p>
+		<a href="#home" class="back-to-top"><i class="icon-angle-up"></i></a>
+	</div>
+	<!-- The end -->
 
-    
 
-  </body>
+	<!-- Scripts -->
+	<script src="js/lib/jquery.min.js"></script>
+	<script src="js/lib/classie.js"></script>
+	<script src="js/lib/smoothscroll.js"></script>
+	<script src="js/lib/jquery.fittext.js"></script>
+	<script src="js/lib/jquery.superslides.min.js"></script>
+	<script src="js/lib/jquery.sudoslider.min.js"></script>
+	<script src="js/lib/jquery.mixitup.min.js"></script>
+	<script src="js/lib/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>
