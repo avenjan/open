@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>rainyday.js demo #1</title>
-        <style media="screen">
-            body {
-                overflow: hidden;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
+	<head>
+		<meta charset="utf-8">
+		<title>rainyday.js demo #1</title>
+		<link rel="shortcut icon" href="favicon.ico">
+		<style media="screen">
+			img { display: none; }
+			body { overflow: hidden; }
+			#canvas { position: absolute; top: 0; left: 0; }
+		</style>
+		<script src="dist/rainyday.0.1.1.min.js"></script>
+		<script>
+			function demo() {
+				var engine = new RainyDay('canvas', 'background', window.innerWidth, window.innerHeight);
+				engine.gravity = engine.GRAVITY_NON_LINEAR;
+				engine.trail = engine.TRAIL_DROPS;
 
-            img {
-                width: 100%;
-                height: 100%;
-            }
-        </style>
-        <script src="rainyday.js"></script>
-        <script>
-            function run() {
-                var image = document.getElementById('background');
-                image.onload = function() {
-                    var engine = new RainyDay({
-                        image: this
-                    });
-                    engine.rain([ [1, 2, 8000] ]);
-                    engine.rain([ [3, 3, 0.88], [5, 5, 0.9], [6, 2, 1] ], 100);
-                };
-                image.crossOrigin = 'anonymous';
-                image.src = 'http://i.imgur.com/N7ETzFO.jpg';
-            }
-        </script>
-    </head>
-    <body onload="run();">
-        <img id="background" alt="background" src="" />
-    </body>
+				engine.rain([
+					engine.preset(0, 2, 500)
+				]);
+
+				engine.rain([
+					engine.preset(3, 3, 0.88),
+					engine.preset(5, 5, 0.9),
+					engine.preset(6, 2, 1),
+				], 100);
+			}
+		</script>
+	</head>
+	<body onload="demo();">
+		<img id="background" src="img/night.jpg" alt="background" />
+		<div id="cholder">
+			<canvas id="canvas"></canvas>
+		</div>
+	</body>
 </html>
