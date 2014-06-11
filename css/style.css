@@ -1689,6 +1689,7 @@ a.contactLink {
 /* Credits and back to top button */
 .contact-bottom {
 	position: relative;
+	margin-top: 15px;
 }
 
 .credit {
