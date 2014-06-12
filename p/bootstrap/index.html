@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap 2.3.1 - 中文翻译 - iXieMin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="v2/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="v2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="v2/assets/css/docs.css" rel="stylesheet">
+    <link href="v2/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="v2/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="v2/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="v2/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="v2/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="v2/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="v2/assets/ico/favicon.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">桦盟网络开源项目库</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">首页</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Bootstrap2中文文档<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="">
+                  <a href="v2/getting-started.html" target="_blank">起步</a>
+                </li>
+                <li class="">
+                  <a href="v2/scaffolding.html" target="_blank">脚手架</a>
+                </li>
+                <li class="">
+                  <a href="v2/base-css.html" target="_blank">基本CSS样式</a>
+                </li>
+                <li class="">
+                  <a href="v2/components.html" target="_blank">组件</a>
+                </li>
+                <li class="">
+                  <a href="v2/javascript.html" target="_blank">JavaScript插件</a>
+                </li>
+                <li class="">
+                  <a href="v2/customize.html" target="_blank">定制</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Bootstrap3中文文档<b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="v3/getting-started/" target="_blank">起步</a>
+                </li>
+                <li>
+                  <a href="v3/css/" target="_blank">CSS</a>
+                </li>
+                <li>
+                  <a href="v3/components/" target="_blank">组件</a>
+                </li>
+                <li>
+                  <a href="v3/javascript/" target="_blank">JavaScript插件</a>
+                </li>
+                <li>
+                  <a href="v3/customize/" target="_blank">定制</a>
+                </li>
+				
+              </ul>
+            </li>
+			<li><a href="http://codeguide.bootcss.com/" target="_blank" >编码规范</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="jumbotron masthead">
+  <div class="container">
+    <h1>Bootstrap</h1>
+    <p>优雅, 直观, 强大的前端框架, 让Web开发更快, 更容易.</p>
+    <p>
+      <a href="v3/" class="btn btn-primary btn-large" >Bootstrap3中文文档(v3.0.3)</a>
+    </p>
+    <ul class="masthead-links">
+      <li>
+        <a href="v2/" >Bootstrap2中文文档(v2.3.1)</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="bs-docs-social">
+  <div class="container">
+    <ul class="bs-docs-social-buttons">
+      <li>
+        文档内容由桦盟网络开源项目组整理呈现
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="marketing">
+
+    <h1>介绍 Bootstrap.</h1>
+    <p class="marketing-byline">需要找爱Bootstrap的理由吗? 不需要.</p>
+
+    <div class="row-fluid">
+      <div class="span4">
+        <img class="marketing-img" src="v2/assets/img/bs-docs-twitter-github.png">
+        <h2>匠心之作, 事无巨细</h2>
+        <p>由Twitter <a href="http://twitter.com/mdo">@mdo</a> 和 <a href="http://twitter.com/fat">@fat</a> 构建, Bootstrap采用 <a href="http://lesscss.org">LESS CSS</a>, 通过 <a href="http://nodejs.org">Node</a>编译, 并托管在 <a href="http://github.com">GitHub</a> 以帮助大家做出令人惊叹的东西.</p>
+      </div>
+      <div class="span4">
+        <img class="marketing-img" src="v2/assets/img/bs-docs-responsive-illustrations.png">
+        <h2>难易兼修</h2>
+        <p>Bootstrap不仅外观和表现都很好的支持最新的桌面浏览器(甚至还支持IE7!), 在平板电脑和智能手机可以通过响应式, 同样可以得到很好的展现.</p>
+      </div>
+      <div class="span4">
+        <img class="marketing-img" src="v2/assets/img/bs-docs-bootstrap-features.png">
+        <h2>功能, 应有尽有</h2>
+        <p>拥有12列的响应网格(栅格), 多种不同组JavaScript插件, 排版, 表单控件, 甚至是一个根据自己Web(项目)要求自定义Bootstrap.</p>
+      </div>
+    </div>
+
+    <hr class="soften">
+
+    <h1>构建于Bootstrap.</h1>
+    <p class="marketing-byline">更多例子, <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">参观非官方分享</a> 或 <a href="./v3/getting-started/index.html#examples" target="_blank">浏览示例</a>.</p>
+    <div class="row-fluid">
+      <ul class="thumbnails example-sites">
+        <li class="span3">
+          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
+            <img src="v2/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+          </a>
+        </li>
+        <li class="span3">
+          <a class="thumbnail" href="http://kippt.com/" target="_blank">
+            <img src="v2/assets/img/example-sites/kippt.png" alt="Kippt">
+          </a>
+        </li>
+        <li class="span3">
+          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
+            <img src="v2/assets/img/example-sites/gathercontent.png" alt="Gather Content">
+          </a>
+        </li>
+        <li class="span3">
+          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
+            <img src="v2/assets/img/example-sites/jshint.png" alt="JS Hint">
+          </a>
+        </li>
+      </ul>
+     </div>
+
+  </div>
+
+</div>
+
+
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>由 <a href="http://twitter.com/mdo" target="_blank">@mdo</a> 和 <a href="http://twitter.com/fat" target="_blank">@fat</a> 用世界上最具特别的爱来设计和建造.</p>
+        <p>代码许可依据<a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, 文档许可依据<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        <p><a href="http://glyphicons.com">Glyphicons Free</a> 授权依据 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+        
+        <ul class="footer-links">
+          <li><a href="http://blog.getbootstrap.com">博客</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">问题</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">更改记录</a></li>
+        </ul>
+      </div>
+    </footer>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
