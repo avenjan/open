@@ -1,7 +1,7 @@
- ![AVenStudio](images/logo.png)
+ ![AVenStudio](http://open.huamengnet.com/images/logo.png)
 #AVen工作室
 
-欢迎访问 [AVenStudio](http://aven.zhluo.com/) 
+欢迎访问 [AVenStudio](http://avenjan.huamengnet.com/) 
 
 
 ## 关于作者
